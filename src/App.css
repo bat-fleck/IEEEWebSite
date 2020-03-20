@@ -1,6 +1,7 @@
 .App {
   display:block;
   background-color: black;
+  height: 100vh;
 }
 
 .nav ul{

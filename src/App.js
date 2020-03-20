@@ -55,7 +55,7 @@ class App extends React.Component{
             </li>
           </ul>
         </nav>
-
+        <div className="content">
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -74,6 +74,7 @@ class App extends React.Component{
             <Home />
           </Route>
         </Switch>
+        </div>
       </div>
     </Router>
     )
