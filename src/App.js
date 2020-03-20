@@ -22,14 +22,18 @@ class App extends React.Component{
     return(
       <Router>
       <div className="App">
+        <div>
         <nav className="nav">
           <ul>
+
             <li>
               <img src={IEEE}/>
             </li>
+            
             <li>
               <Link to="/">Home</Link>
             </li>
+
             <div className="dropdown">
               <button class="dropbtn">Societies 
                 <i class="fa fa-caret-down"></i>
@@ -55,6 +59,7 @@ class App extends React.Component{
             </li>
           </ul>
         </nav>
+        </div>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
