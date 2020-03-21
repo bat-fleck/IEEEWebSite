@@ -52,10 +52,20 @@
     padding-left: 10px;
 }
 
-.card .profileName, .profilePos{
+.card .name .profileName, .profilePos{
     text-align: center;
     padding: 5px;
-    flex:1;
+    /* flex:1; */
+}
+
+.name{
+    flex:1
+}
+
+.dp{
+    flex:4;
+    justify-content: center;
+    align-items: center;
 }
 
 .links{
