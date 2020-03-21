@@ -49,7 +49,7 @@ var general=[
         "git":"#"
     },
     {
-        "name":"Krishna Prasad S Nambiar",
+        "name":"Krishna Prasad",
         "position":"Technical Coordinator",
         "image":require("../images/execom/kps.jpg"),
         "link":"#",
@@ -85,4 +85,149 @@ var general=[
     }  
 ]
 
-export default general;
+var CS=[
+    {   
+        "name":"Jacob Abraham",
+        "position":"Chair",
+        "image":require("../images/execom/ja.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Muhammed Rabeeh",
+        "position":"Vice Chair",
+        "image":require("../images/execom/mrt.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Ruhi Elizabeth",
+        "position":"Secretary",
+        "image":require("../images/execom/rh.jpg"),
+        "link":"#",
+        "git":"#"
+    }
+]
+
+var IAS=[
+    {
+        "name":"Swathi Subash",
+        "position":"Chair",
+        "image":require("../images/execom/ss.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Dhanesh PS",
+        "position":"Secretary",
+        "image":require("../images/execom/dps.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+] 
+
+var WEA=[
+    {
+        "name":"Anusree Sunil",
+        "position":"Chair",
+        "image":require("../images/execom/ans.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Maria Paul T",
+        "position":"Vice Chair",
+        "image":require("../images/execom/mpt.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Nikitha Rajendran",
+        "position":"Secretary",
+        "image":require("../images/execom/nr.jpg"),
+        "link":"#",
+        "git":"#"
+    }
+]
+
+var WEA=[
+    {
+        "name":"Anusree Sunil",
+        "position":"Chair",
+        "image":require("../images/execom/ans.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Maria Paul T",
+        "position":"Vice Chair",
+        "image":require("../images/execom/mpt.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Nikitha Rajendran",
+        "position":"Secretary",
+        "image":require("../images/execom/nr.jpg"),
+        "link":"#",
+        "git":"#"
+    }
+]
+
+var PES=[
+    {
+        "name":"Hamna Sunil",
+        "position":"Chair",
+        "image":require("../images/execom/hs.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Hasna M Rafi",
+        "position":"Vice Chair",
+        "image":require("../images/execom/hmr.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Varsha Valsan",
+        "position":"Secretary",
+        "image":require("../images/execom/vv.jpg"),
+        "link":"#",
+        "git":"#"
+    }
+]
+
+var RAS=[
+    {
+        "name":"Sanjay S Nair",
+        "position":"Chair",
+        "image":require("../images/execom/ssn.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Samuel P Zacharia",
+        "position":"Vice Chair",
+        "image":require("../images/execom/spz.jpg"),
+        "link":"#",
+        "git":"#"
+    },
+    {
+        "name":"Aparna R Kiran",
+        "position":"Secretary",
+        "image":require("../images/execom/ark.jpg"),
+        "link":"#",
+        "git":"#"
+    }
+]
+
+
+export{
+    general,
+    CS,
+    IAS,
+    WEA,
+    PES,
+    RAS,
+}

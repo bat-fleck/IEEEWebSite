@@ -21,6 +21,7 @@ class App extends React.Component{
   render(){
     return(
       <Router>
+
       <div className="App">
         <div>
         <nav className="nav">

@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Execom.css";
-import general from "../data/currEx.js"
+import {general,CS,IAS,WEA,PES,RAS} from "../data/currEx.js"
 import git from "../images/git.svg"
+import x from "../images/x.png"
 import link from "../images/link.svg"
 
 var imy={
@@ -64,13 +65,115 @@ export default class Home extends React.Component{
         return(
             <div className="app">
                 <div className="header">
-                    <h1>Our current Execom</h1>
+                    <h1>Our Current Execom</h1>
                 </div>
 
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
+                </div>
+
+                {/* General Body */}
+                <div className="header">
+                    <h2>General Body</h2>
+                </div>
                 <div className="general">
+                    
                     {general.map((profile)=>(
                         <Card profile={profile}/>
                     ))}
+                </div>
+
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
+                </div>
+
+                {/* Computer Society */}
+                <div className="header">
+                    <h2>Computer Society</h2>
+                </div>
+                <div className="general">
+                    
+                    {CS.map((profile)=>(
+                        <Card profile={profile}/>
+                    ))}
+                </div>
+
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
+                </div>
+
+                {/* Industrial application */}
+                <div className="header">
+                    <h2>Industrial Applications Society</h2>
+                </div>
+                <div className="general">
+                    
+                    {IAS.map((profile)=>(
+                        <Card profile={profile}/>
+                    ))}
+                </div>
+
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
+                </div>
+
+                {/* Women in eng */}
+                <div className="header">
+                    <h2>Women In Engineering Affinity Group</h2>
+                </div>
+                <div className="general">
+                    
+                    {WEA.map((profile)=>(
+                        <Card profile={profile}/>
+                    ))}
+                </div>
+
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
+                </div>
+
+                {/* Power Energy  */}
+                <div className="header">
+                    <h2>Power Energy Society</h2>
+                </div>
+                <div className="general">
+                    
+                    {PES.map((profile)=>(
+                        <Card profile={profile}/>
+                    ))}
+                </div>
+
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
+                </div>
+
+                {/* Robotics and Auto.. */}
+                <div className="header">
+                    <h2>Robotics And Automation Society</h2>
+                </div>
+                <div className="general">
+                    
+                    {RAS.map((profile)=>(
+                        <Card profile={profile}/>
+                    ))}
+                </div>
+
+                <div class="hr-theme-slash-2">
+                    <div class="hr-line"></div>
+                        <div class="hr-icon"><img src={x} style={{width:"10px",height:"10px"}}/></div>
+                    <div class="hr-line"></div>
                 </div>
             </div>
         )

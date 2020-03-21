@@ -4,6 +4,8 @@
     
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .app{
     padding-top: 2%;
     /* display:flex; */
@@ -15,7 +17,11 @@
 }
 
 .header{
+    font-family:'Roboto';
     text-align: center;
+    padding:20px;
+    font-size: 24px;
+    /* font-weight: 100; */
     /* background-color: blue; */
 }
 
@@ -23,14 +29,18 @@
     
     display: flex;
     flex-wrap: wrap; 
+    align-content: center;
+    justify-content: center;
 }
 
 .card{
     display: flex;
     flex-direction: column;
+    border-radius: 2em;
     align-items: center; 
-    justify-content: space-around; 
-    background-color: blanchedalmond;
+    justify-content: space-around;
+    background-image: linear-gradien(#f64f59,#c471ed,#12c2e9); 
+    /* background-color:#00ff7b; */
     /* padding:10px; */
     margin: 10px;
     width:250px;
@@ -58,8 +68,14 @@
     /* flex:1; */
 }
 
-.name{
+.name .profileName{
+    color:#3b3c36;
     /* flex:1; */
+    /* color:#121212; */
+}
+
+.name .profilePos{
+    color:#777672;
 }
 
 .dp{
@@ -77,4 +93,22 @@
     padding-top: 15px;
     /* padding-inline: 10px; */
 
+}
+
+
+
+/* Horizontal LIne */
+.hr-theme-slash-2 {
+    display: flex;
+}    
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #000;
+}
+.hr-icon {
+    position: relative;
+    top: 3px;
+    color: #ff0000;
 }
