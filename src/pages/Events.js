@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Events.css";
+import "./Events.css";
 
 export default class Home extends React.Component{
     constructor(props){
@@ -8,7 +8,7 @@ export default class Home extends React.Component{
 
     render(){
         return(
-            <div className="app">
+            <div className="app-1">
                 <h2 style={{color:'white'}}>Events</h2>
                 <p style={{color:'white'}}>
                     Hello, this is Vishnu

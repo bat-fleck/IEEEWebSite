@@ -8,7 +8,7 @@ import {
 import Home from './pages/Home'
 import About from './pages/About'
 import Execom from './pages/Execom'
-import IEEE from './images/IEEE.png'
+import IEEE from './images/ieee.png'
 import Events from './pages/Events'
 import './App.css';
 
@@ -59,8 +59,8 @@ class App extends React.Component{
             </li>
           </ul>
         </nav>
-        </div>
-
+      </div> 
+        <div className="content">
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -79,6 +79,7 @@ class App extends React.Component{
             <Home />
           </Route>
         </Switch>
+        </div>
       </div>
     </Router>
     )
